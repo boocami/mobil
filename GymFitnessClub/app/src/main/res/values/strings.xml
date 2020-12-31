@@ -1,0 +1,40 @@
+﻿<resources>
+    <string name="app_name">GymFitnessClub</string>
+    <string name="NameApp">GYM FITNNES CLUB</string>
+    <string name="frase">Ingrese a su cuenta</string>
+    <string name="IniciarSesion">Iniciar Sesión</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="CrearCuenta">Crea tu cuenta</string>
+    <string name="frasemotivadora">Ven temprano al GYM y ponte en forma</string>
+    <string name="siguiente">siguiente</string>
+    <string name="cuenta">Ya estoy registrado</string>
+    <string name="datos">Datos de la cuenta</string>
+    <string name="clave">¿Olvidaste tu contraseña?</string>
+    <string name="olvidasteclave">¿Se te olvidó tu contraseña?</string>
+    <string name="textolvidasteclave">Necesitamos su dirección de correo electrónico inscrita para la recuperación de contraseña</string>
+    <string name="restablecer">Restablecer contraseña</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string-array name="genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>    
+    <string name="usuario">Ingrese su nombre de usuario</string>
+    <string name="contraseña">Ingrese su contraseña</string>
+    <string name="fechaEvaluacion">Ingrese fecha de evaluacion</string>
+    <string name="peso">Ingrese peso</string>
+    <string name="estatura">Ingrese la estatura</string>
+    <string name="medidaCintura">Ingrese la medida de cintura</string>
+    <string name="imc">Calculando IMC</string>
+    <string name="grasaPorcenta">Calculando %grasa</string>
+    <string name="grasaInstumento">Ingrese la grasa instrumento</string>
+    <string name="guardar">Guardar</string>
+    <string name="entrar">Entrar</string>
+    <string-array name="usuarioslistado">
+        <item>USUARIO 1</item>
+        <item>USUARIO 2</item>
+        <item>USUARIO 3</item>
+        <item>USUARIO 4</item>
+        <item>USUARIO 5</item>
+    </string-array>
+    <string name="evaluar">Evaluar</string>
+</resources>

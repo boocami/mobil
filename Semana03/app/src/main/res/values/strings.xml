@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Semana03</string>
+    <string name="txtEdt1">Ingrese Nombre</string>
+    <string name="txtEdt2">Ingrese Apellido</string>
+    <string name="txtEdt3">Ingese Edad</string>
+    <string name="txtBtn1">Capturar datos</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GymEntrenador</string>
+    <string name="usuario">Ingrese su nombre de usuario</string>
+    <string name="contraseña">Ingrese su contraseña</string>
+    <string name="fechaEvaluacion">Ingrese fecha de evaluacion</string>
+    <string name="peso">Ingrese peso</string>
+    <string name="estatura">Ingrese la estatura</string>
+    <string name="medidaCintura">Ingrese la medida de cintura</string>
+    <string name="imc">Calculando IMC</string>
+    <string name="grasaPorcenta">Calculando %grasa</string>
+    <string name="grasaInstumento">Ingrese la grasa instrumento</string>
+    <string name="guardar">Guardar</string>
+    <string name="entrar">Entrar</string>
+    <string-array name="usuarioslistado">
+        <item>USUARIO 1</item>
+        <item>USUARIO 2</item>
+        <item>USUARIO 3</item>
+        <item>USUARIO 4</item>
+        <item>USUARIO 5</item>
+    </string-array>
+    <string name="evaluar">Evaluar</string>
+</resources>

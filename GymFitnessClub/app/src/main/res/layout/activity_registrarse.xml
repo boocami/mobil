@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrarse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/f">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:background="#635F5F" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:layout_weight="1"
+        android:fontFamily="@font/alegreya_sans"
+        android:gravity="center"
+        android:text="@string/CrearCuenta"
+        android:textColor="@color/colorText"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:gravity="center"
+        android:text="@string/frasemotivadora"
+        android:textColor="@color/colorText"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/backgroundTint"
+            android:drawableLeft="@drawable/tarjeta"
+            android:hint="Ingrese su nombre"
+            android:textColorHint="@color/colorText"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="270sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_apaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/backgroundTint"
+            android:drawableLeft="@drawable/tarjeta"
+            android:hint="Ingrese su apellido paterno"
+            android:textColorHint="@color/colorText"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="340sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_apmaterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/backgroundTint"
+            android:drawableLeft="@drawable/tarjeta"
+            android:hint="Ingrese su apellido materno"
+            android:textColorHint="@color/colorText"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layaoutTextFecha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="410sp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_input_fechanacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/backgroundTint"
+            android:clickable="true"
+            android:drawableLeft="@drawable/calendario"
+            android:focusable="false"
+            android:hint="Ingrese fecha de nacimiento"
+            android:inputType="date"
+            android:onClick="Calendario"
+            android:textColorHint="@color/colorText" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layaoutTextFecha" />
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="300sp"
+        android:layout_height="45sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginRight="50sp"
+        android:background="@drawable/botonregistrarse"
+        android:onClick="Validacion"
+        android:text="@string/siguiente"
+        android:textColor="#FFFFFF"
+
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570sp"
+        android:layout_weight="1"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:onClick="VolverIniciar"
+        android:text="@string/cuenta"
+        android:textColor="@color/verdeagua"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
